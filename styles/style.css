@@ -1,0 +1,38 @@
+
+#logo
+{
+
+    width: 8rem;
+    height: auto;
+
+}
+
+
+
+.navDad
+{
+    padding-top: 2rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-bottom: 2rem;
+}
+
+.flexRow
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexCenter
+{
+    align-items: center;
+}
+
+.navButtns
+{
+    color: #292828;
+    text-decoration: none;
+    align-self: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
