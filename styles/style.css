@@ -1,32 +1,68 @@
 
-#logo
-{
-
-    width: 8rem;
-    height: auto;
-    grid-column: 2;
-    grid-row: 1 / 5;
-
-}
 
 
-
+/* NAV BAR START */
 .navDad
 {
     padding-top: 2rem;
    
     padding-bottom: 2rem;
     display: grid;
-    grid-template-columns: repeat(12, auto);
+    grid-template-columns: repeat(30, 4rem);
     grid-template-rows: repeat(4, auto);
     
 }
 
+#logo
+{
+
+    width: 8rem;
+    height: auto;
+    grid-column: 3 / span 3;
+    grid-row: 1 / 5;
+
+}
 
 .navButtns
 {
     color: #292828;
     text-decoration: none;
     text-align: center;
-    grid-row: 2/ span 2;
+    grid-row: 2 / span 2;
+    font-size: 20px;
+    font-weight: 600;
 }
+
+
+
+#navLink1
+{
+    grid-column: 12 / span 2;
+    grid-row: 2 / span 2;
+}
+
+#navLink2
+{
+    grid-column: 14 / span 2;
+    grid-row: 2 / span 2;
+}
+
+#navLink3
+{
+    grid-column: 16 / span 2;
+    grid-row: 2 / span 2;
+}
+
+#navLink4
+{
+    grid-column: 18 / 19;
+    grid-row: 2 / span 2;
+}
+
+a:hover 
+{
+    color: #D76151;
+    border-bottom: solid #D76151 2px;
+}
+
+/* NAV BAR END */
