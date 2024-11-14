@@ -225,7 +225,7 @@ a:hover
 
 .bestSellers
 {
-    border: solid black 2px;
+    border: solid black 1px;
     padding: 24px;
     border-radius: 10px;
     margin-left: 20px;
@@ -235,7 +235,7 @@ a:hover
 .bestSellersStockPot
 {
     max-height:600px;
-    border: solid black 2px;
+    border: solid black 1px;
     padding: 24px;
     border-radius: 10px;
     margin-left: 20px;
@@ -260,7 +260,8 @@ a:hover
 
 .ShopBtn
 {
-    
+
+    border-width: 1px;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 35px;
@@ -271,6 +272,7 @@ a:hover
 
 .saucePanBtn
 {
+    border-width: 1px;
     margin-top: 40px;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -296,6 +298,39 @@ button:hover
     display: flex;
     justify-content: center;
     margin-top: 60px;
+}
+
+.reviewImages
+{
+    border-radius: 10px;
+    width: 531px;
+    height: 664.75px;
+}
+
+.absolute
+{
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+}
+
+
+
+.reviewText
+{
+    position: absolute;
+    text-align: center;
+    color: white;
+    background-color: #12121299;
+    bottom: 24%;
+    right: 10%;
+    width: 426px;
+    padding-right: 28px;
+    padding-left: 28px;
+    padding-top: 73px;
+    padding-bottom: 73px;
+    
+   
 }
 
 /* REVIEWS END */
