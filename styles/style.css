@@ -6,6 +6,12 @@ h2
 .sectionTittles
 {
     font-size: 64px;
+
+}
+
+body
+{
+    background-color: #EDEDED;
 }
 /* NAV BAR START */
 .navDad
@@ -127,6 +133,12 @@ a:hover
 
 /* JUST COOKING START */
 
+.cookingTittle
+{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
 .cookingImg
 {
     width: 100%;
@@ -220,6 +232,16 @@ a:hover
     margin-right: 20px;
 }
 
+.bestSellersStockPot
+{
+    max-height:600px;
+    border: solid black 2px;
+    padding: 24px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .bestSellersImg
 {
     width: 449px;
@@ -243,8 +265,19 @@ a:hover
     padding-bottom: 8px;
     padding-left: 35px;
     padding-right: 35px;
-    background-color: white;
+    background-color: #EDEDED;
 
+}
+
+.saucePanBtn
+{
+    margin-top: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: #EDEDED;
+   
 }
 
 button:hover
@@ -255,3 +288,14 @@ button:hover
 
 
 /* BEST SELLERS END */
+
+/* REVIEWS START */
+
+.reviewsTittle
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+/* REVIEWS END */
