@@ -144,11 +144,27 @@ a:hover
     margin-bottom: 40px;
 }
 
+.noOverflow
+{
+    overflow: hidden;
+    display: inline-block;
+}
+
+
 .cookingImg
 {
     width: 100%;
     height: 347px;
     border-radius: 10px;
+    display: block;
+    /* transition: transform 0.1s ease; */
+}
+
+.cookingImg:hover
+{
+  
+    transform: scale(1.1);
+   
 }
 
 
@@ -167,6 +183,10 @@ a:hover
     font-weight: 600;
 }
 
+.arrivalsImg:hover
+{
+    filter: brightness(80%);
+}
 
   .dot1
   {
@@ -235,11 +255,13 @@ a:hover
     border-radius: 10px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 20px;
     max-width: 497;
 }
 
 .bestSellersStockPot
 {
+    margin-bottom: 20px;
     max-height:600px;
     border: solid black 1px;
     padding: 24px;
@@ -254,6 +276,13 @@ a:hover
 {
     width: 449px;
     height: 338px;
+    display: block;
+    border-radius: 10px;
+}
+
+.bestSellersImg:hover
+{
+    transform: scale(1.1);
 }
 
 .marginBottom
@@ -292,7 +321,7 @@ a:hover
 
 button:hover
 {
-    background-color: black;
+    background-color: #1E2C20;
     color: white;
 }
 
@@ -410,6 +439,20 @@ button:hover
     color: white;
     font-weight: 300;
     font-size: 16px;
+}
+
+
+.inputField
+{
+    font-size: 12px;
+    font-weight: 400;
+    color: #B1B5BB;
+    background-color: #E5E7EB;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+
+
 }
 
 
