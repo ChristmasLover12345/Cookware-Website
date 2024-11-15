@@ -629,6 +629,7 @@ a:hover
 {
     margin-top: 2rem;
     text-decoration: none;
+    list-style: none;
 }
 
 .slideMenu ul li
@@ -1162,6 +1163,7 @@ a:hover
 {
     margin-top: 2rem;
     text-decoration: none;
+    list-style: none;
 }
 
 .slideMenu ul li
