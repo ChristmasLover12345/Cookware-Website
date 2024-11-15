@@ -7,3 +7,5 @@
  // made a website based on a figma
 
 // Peer reviewed by: Mason Q, The website overall the top portion represents the figma very well just having maybe font size differences and as we get to the bottom the best sellers and review section look like there aligned vertically instead of horrizontally however on the mobile side it looks good.
+
+Juan: Forgot to tell the peer reveiwer that the website was made with 1920 as the base width
