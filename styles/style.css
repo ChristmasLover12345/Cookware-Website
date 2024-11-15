@@ -395,7 +395,23 @@ button:hover
 .footerBg
 {
     background-color: #1E2C20;
+    padding: 80px;
 }
+
+.weightedText
+{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.slimmerText
+{
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+}
+
 
 /* FOOTER END */
 
@@ -412,6 +428,30 @@ button:hover
         justify-content: center;
         align-items: center;
         
+    }
+
+    .footerBg
+    {
+        background-color: #1E2C20;
+       padding: 0px;
+    }
+
+    
+
+
+    .weightedText
+    {
+        color: white;
+        font-weight: 600;
+        font-size: 20px;
+        
+    }
+    
+    .slimmerText
+    {
+        color: white;
+        font-weight: 300;
+        font-size: 16px;
     }
 
 
