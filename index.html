@@ -13,16 +13,7 @@
   <body>
     
     <!-- NAV BAR START -->
-    <!-- <div class="navDad">
-
-      <img id="logo" src="./assets/images for use on website/Logo.svg" alt="logo">
-     
-      <a id="navLink1" class="navButtns">COOKWARE</a>
-      <a id="navLink2" class="navButtns">BAKEWARE</a>
-      <a id="navLink3" class="navButtns">ACCESSORIES</a>
-      <a id="navLink4" class="navButtns">SALE</a>
-
-      </div> -->
+ 
 
       <div class="comtainer">
         <div class="row">
@@ -30,16 +21,33 @@
             <img class="d-flex justify-content-center" id="logo" src="./assets/images for use on website/Logo.svg" alt="logo">
           </div>
           <div class="col-8 order-1 order-lg-2 d-flex justify-content-center align-items-center">
-
+           <div class="navItems">
             <a  class="navButtns mx-4">COOKWARE</a>
             <a  class="navButtns mx-4">BAKEWARE</a>
             <a  class="navButtns mx-4">ACCESSORIES</a>
             <a id="navLink4" class="navButtns mx-4">SALE</a>
+          </div>
+
+            <button class="menuButton">☰</button>
 
           </div>
-          <div class="col-2 order-2 order-lg-3"></div>
+          <div class="col-2 order-2 order-lg-3 d-flex justify-content-center align-items-center">
+
+          </div>
         </div>
       </div>
+
+
+      <div id="slideMenu" class="slideMenu">
+        <button class="closeMenu">✖</button>
+        <ul>
+            <li><a class="navButtns" href="#">COOKWARE</a></li>
+            <li><a class="navButtns" href="#">BAKEWARE</a></li>
+            <li><a class="navButtns" href="#">ACCESSORIES</a></li>
+            <li><a id="navLink4" class="navButtns" href="#">SALE</a></li>
+        </ul>
+     </div>
+
   
     <!-- NAV BAR END -->
 
@@ -213,8 +221,9 @@
       </div>
      </div>
 
-     <!-- FOOTER END -->
+      <!-- FOOTER END -->
 
+      <script src="./scripts/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>

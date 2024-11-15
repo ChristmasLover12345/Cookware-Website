@@ -44,11 +44,9 @@ font-weight: 400;
     color: #292828;
     text-decoration: none;
     text-align: center;
-    grid-row: 2 / span 2;
     font-size: 20px;
     font-weight: 600;
 }
-
 
 
 #navLink4
@@ -63,6 +61,66 @@ a:hover
     color: #D76151;
     border-bottom: solid #D76151 2px;
 }
+
+
+.menuButton {
+    display: none; 
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    
+}
+
+
+
+.slideMenu
+{
+
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 250px;
+    height: 100%;
+    background-color: #FFFFFF;
+    transition: right 0.3 ease-in;
+    z-index: 1001;
+    padding: 2rem 1rem;
+
+}
+
+
+
+.slideMenu ul
+{
+    margin-top: 2rem;
+}
+
+.slideMenu ul li
+{
+    color: #292828;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+
+.closeMenu
+{
+    background: none;
+    border: none;
+    color: #969696;
+    font-size: 3rem;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+
+
+
 /* NAV BAR END */
 /* HERO START */
 
@@ -477,53 +535,544 @@ button:hover
 
 
 
+/* ---------------------TABLET DISPLAY------------------------- */
+
+@media (min-width: 576px) and (max-width: 996px)
+{
 
 
-@media (min-width: 0px) and (max-width: 996px) {
+    /* NAV BAR START */
+.navDad
+{
+    padding-top: 2rem;
+   
+    padding-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(30, 4rem);
+    grid-template-rows: repeat(4, auto);
     
-    .bestContainer
-    {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        
-    }
+}
 
-    .footerBg
-    {
-        background-color: #1E2C20;
-       padding: 0px;
-    }
+#logo
+{
 
+    width: 8rem;
+    height: auto;
     
-
-
-    .weightedText
-    {
-        color: white;
-        font-weight: 600;
-        font-size: 20px;
-        
-    }
-    
-    .slimmerText
-    {
-        color: white;
-        font-weight: 300;
-        font-size: 16px;
-    }
-
-
-    .navDad
-    {
-        padding-top: 2rem;
-       
-        padding-bottom: 2rem;
-        display: grid;
-        grid-template-columns: repeat(30, auto);
-        grid-template-rows: repeat(4, auto);
-        
-    }
 
 }
+
+.navButtns
+{
+    color: #292828;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+#navLink4
+{
+   
+    color:#B73A2A;
+    
+} 
+
+a:hover 
+{
+    color: #D76151;
+    border-bottom: solid #D76151 2px;
+}
+
+
+.navItems
+{
+    display: none;
+}
+
+.menuButton {
+    display: block; 
+    background: none;
+    border: none;
+    color: #000000;
+    font-size: 2rem;
+    
+}
+
+.slideMenuOn
+{
+    right:0;
+}
+
+.slideMenu
+{
+
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 250px;
+    height: 100%;
+    background-color: #FFFFFF;
+    transition: right 0.3 ease-in;
+    z-index: 1001;
+    padding: 2rem 1rem;
+
+}
+
+
+
+.slideMenu ul
+{
+    margin-top: 2rem;
+}
+
+.slideMenu ul li
+{
+    color: #292828;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+
+.closeMenu
+{
+    background: none;
+    border: none;
+    color: #969696;
+    font-size: 3rem;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+
+
+
+/* NAV BAR END */
+/* HERO START */
+
+.hero
+{
+    width: 100%;
+    height: auto;
+    
+
+}
+
+.heroGrid
+{
+
+ position: relative;
+
+   
+
+} 
+
+.heroText
+{
+    position: absolute;
+    color: white;
+    background-color:#181818CC;
+    font-size: 48px;
+    left: 8%;
+    bottom: 22%;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    padding-left: 32px;
+    padding-right: 32px;
+
+}
+
+/* HERO END */
+
+/* SALE $10 START */
+
+.saleGrid
+{
+    display: grid;
+    grid-template-columns: repeat(9, auto);
+    background-color: #1E2C20;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 4rem;
+}
+
+.sale
+{
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    grid-column: 5 / 6;
+}
+
+/* SALE $10 END */
+
+/* JUST COOKING START */
+
+.cookingTittle
+{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.noOverflow
+{
+    overflow: hidden;
+    display: inline-block;
+}
+
+
+.cookingImg
+{
+    width: 100%;
+    height: 347px;
+    border-radius: 10px;
+    display: block;
+    /* transition: transform 0.1s ease; */
+}
+
+.cookingImg:hover
+{
+  
+    transform: scale(1.1);
+   
+}
+
+
+/* JUST COOKING END */
+
+/* NEW ARRIVALS START */
+
+.arrivalsImg
+{
+    width: 100%;
+    height: 632px;
+    border-radius: 10px;
+}
+
+.appleCinnamon{
+    font-weight: 600;
+}
+
+.arrivalsImg:hover
+{
+    filter: brightness(80%);
+}
+
+  .dot1
+  {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #EA2D2C;
+    border: solid black 2px;
+   
+  }
+
+  .dot2
+  {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #FB5108;
+   
+  }
+
+  .dot3
+  {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #D29D12;
+   
+  }
+
+  .dot4
+  {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #353535;
+ 
+  }
+/* NEW ARRIVALS END */
+
+/* BEST SELLERS START */
+
+.bestTittle
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.bestContainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.bestSellers
+{
+    border: solid black 1px;
+    padding: 24px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    max-width: 497;
+}
+
+.bestSellersStockPot
+{
+    margin-bottom: 20px;
+    max-height:600px;
+    border: solid black 1px;
+    padding: 24px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 497;
+
+}
+
+.bestSellersImg
+{
+    width: 449px;
+    height: 338px;
+    display: block;
+    border-radius: 10px;
+}
+
+.bestSellersImg:hover
+{
+    transform: scale(1.1);
+}
+
+.marginBottom
+{
+    margin-bottom: 40px;
+}
+
+.smalllerMarginBottom
+{
+    margin-bottom: 20px;
+}
+
+.ShopBtn
+{
+
+    border-width: 1px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: #EDEDED;
+
+}
+
+.saucePanBtn
+{
+    border-width: 1px;
+    margin-top: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: #EDEDED;
+   
+}
+
+button:hover
+{
+    background-color: #1E2C20;
+    color: white;
+}
+
+
+/* BEST SELLERS END */
+
+/* REVIEWS START */
+
+.reviewsTittle
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.reviewImages
+{
+    border-radius: 10px;
+    width: 531px;
+    height: 664.75px;
+    margin-bottom: 50px;
+}
+
+.absolute
+{
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.center
+{
+    align-content: center;
+}
+
+.textCenter
+{
+    text-align: center;
+}
+
+.reviewText1
+{
+    position: absolute;
+   
+    color: white;
+    background-color: #12121299;
+    bottom: 24%;
+    right: 10%;
+    width: 426px;
+    height: 345px;
+    padding-right: 28px;
+    padding-left: 28px;
+    padding-top: 73px;
+    padding-bottom: 73px;
+    
+   
+}
+
+.reviewText2
+{
+    position: absolute;
+    
+    color: white;
+    background-color: #12121299;
+    bottom: 24%;
+    right: 10%;
+    width: 426px;
+    height: 345px;
+    padding-right: 28px;
+    padding-left: 28px;
+    padding-top: 73px;
+    padding-bottom: 73px;
+    
+   
+}
+
+.reviewText3
+{
+    position: absolute;
+    
+    color: white;
+    background-color: #12121299;
+    bottom: 24%;
+    right: 10%;
+    width: 426px;
+    height: 345px;
+    padding-right: 28px;
+    padding-left: 28px;
+    padding-top: 73px;
+    padding-bottom: 73px;
+    
+   
+}
+
+/* REVIEWS END */
+
+
+/* FOOTER START */
+
+.footerBg
+{
+    background-color: #1E2C20;
+    padding: 40px;
+}
+
+.weightedText
+{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.slimmerText
+{
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
+.inputField
+{
+    font-size: 12px;
+    font-weight: 400;
+    color: #B1B5BB;
+    background-color: #E5E7EB;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 42px;
+}
+
+.subBtn
+{
+    background-color: #1E2C20;
+    border: solid white 2px;
+    color: white;
+    width: 80%;
+   height: 42px;
+   
+}
+
+
+
+.Logos
+{
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin-right: 20px;
+    
+}
+
+.indeedLogo
+{
+    width: 35px;
+    height: 100%;
+    padding: 0;
+    
+    
+}
+
+
+
+
+/* FOOTER END */
+
+
+}
+
+
+/*--------------------- PHONE DISPLAY ---------------------------- */
+
+
+
+
+
